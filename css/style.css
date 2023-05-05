@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Playfair+Display:wght@800&family=Yeseva+One&display=swap');
+
+/* Set default font family and size */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  }
+  
+  /* Center the content in the middle of the page */
+  body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 70px;
+  }
+  
+  /* Add a hover effect to the image links */
+  a img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  }
+  
+  /* Style the page title */
+  h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 36px;
+  text-align: center;
+  margin: 30px 0;
+  }
+  
+  /* Style the section headings */
+  h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 60px 0;
+  }
+  
+  /* Style the paragraph text */
+  p {
+  margin: 20px 0;
+  }
+  
+  /* Style the image links */
+  a img {
+  display: block;
+  margin: 40px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
